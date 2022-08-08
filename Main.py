@@ -39,7 +39,7 @@ class Solution:
           True if it is empty, else returns False.
         """
         # Write your code here
-        if self.rear = self.size-1:
+        if self.rear == self.size-1:
             return True
 
     def is_stack_full(self):
@@ -59,7 +59,7 @@ class Solution:
           True if it is full, else returns False.
         """
         # Write your code here
-        if self.rear = -1:
+        if self.rear == -1:
             return True
         
 
