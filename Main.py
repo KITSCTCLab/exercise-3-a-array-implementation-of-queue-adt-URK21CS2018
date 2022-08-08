@@ -110,7 +110,7 @@ class Solution:
             if (self.front==self.rear):
                 self.front=self.rear=-1
             else:
-                front++
+                self.front++
                 return x
 
 
