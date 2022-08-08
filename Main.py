@@ -110,8 +110,8 @@ class Solution:
             if (self.front==self.rear):
                 self.front=self.rear=-1
             else:
-                self.front++
-                return x
+                (self.front)++
+            return x
 
 
 # read the string text
